@@ -38,19 +38,3 @@ form.addEventListener("submit", function (e) { // Bu kod, form üzerinde "submit
     }
 
 });
-
-
-/* parseInt, bir dizeyi tamsayıya dönüştüren bir JavaScript fonksiyonudur.
-Bu örnekte, amount.value ifadesi bir form elemanından alınan metin girişini temsil eder ve parseInt kullanılarak bu metin sayıya çevrilir.
-Örneğin, eğer amount.value "5" ise, parseInt("5") ifadesi 5 tam sayısını üretecektir.
-
-isNaN, bir değerin sayı olup olmadığını kontrol eden bir fonksiyondur. Eğer değer bir sayı değilse veya sayıya dönüştürülemezse true döner, aksi takdirde false döner. 
-Bu örnekte, kullanıcının girdisi value değişkenine atanmıştır, ve eğer bu değer bir sayı değilse veya 0'dan küçük veya 9'dan büyük veya eşitse, belirli bir şart bloğunu çalıştırır.
-
-join, bir diziyi birleştirerek tek bir dize haline getiren bir dizi metodu. 
-Bu örnekte, tempText adlı bir dizi, map fonksiyonuyla her bir öğeyi bir <p> etiketi içine koyan bir diziye dönüştürülür.
-Daha sonra join("") ifadesi, bu diziyi birleştirir ve sonuç olarak bir dize elde edilir.
-Bu, HTML paragraflarını içeren bir dize olacaktır.
-
-"map" kodu, tempText adlı bir dizinin her elemanını alır ve her elemanı bir <p> etiketi içine yerleştirerek yeni bir dizi oluşturur. Yani, her metin paragrafı <p class="result">...</p> şeklinde bir HTML paragrafı içinde olacak şekilde dönüştürülür.
-map fonksiyonunun avantajı, orijinal diziyi değiştirmeden, her eleman üzerinde belirli bir işlem yaparak yeni bir dizi oluşturabilmesidir. Bu, orijinal veriyi koruyarak işlemler yapmak için çok kullanışlıdır.*/
